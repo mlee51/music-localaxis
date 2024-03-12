@@ -5,10 +5,10 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'music.localaxis.co',
+  title: 'localaxis',
   description: 'record label based in nyc',
   icons: {
-    icon: "/icon.png",
+    icon: "/localaxis_logo.png",
   },
 }
 
