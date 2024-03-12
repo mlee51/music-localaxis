@@ -14,7 +14,7 @@ export default function Home() {
           className='relative lg:w-[300px]'
         >
           <Image
-            src="/afterimage_lg.jpg"
+            src="/afterimage_lg_c.jpg"
             width="0"
             height="0"
             sizes="100vw"
