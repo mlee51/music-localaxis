@@ -7,22 +7,22 @@ const nunito = Nunito({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <div className={`${nunito.className} absolute w-full lg:top-1/3 lg:left-1/3 lg:flex lg:flex-row lg:gap-4`}>
+      <div className={`${nunito.className} absolute w-full md:w-auto md:top-1/3 md:left-1/3 md:flex md:flex-row md:gap-4`}>
         <a
           href='https://afterimage.localaxis.co/'
           target='_blank'
-          className='relative lg:w-[300px]'
+          className='relative'
         >
           <Image
             src="/afterimage_lg_c.jpg"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-full h-auto"
+            width="300"
+            height="300"
+            priority={true}
+            className="w-full h-auto p-2 md:p-0"
             alt="afterimage cover art"
           />
         </a>
-        <div className='flex flex-row-reverse mt-4 mr-4 lg:mt-0 lg:mr-0 lg:flex-row  gap-3 items-end leading-5'>
+        <div className='flex flex-row-reverse mt-4 mr-4 md:mt-0 md:mr-0 md:flex-row  gap-3 items-end leading-5'>
          <Player/>
           <a href='https://open.spotify.com/track/0pEyXNHk2CYTcqnyfhU4u4?si=ee0d9d9624e84686'
             target='_blank'
