@@ -4,7 +4,7 @@ import { useState, useRef } from 'react';
 
 export default function Player() {
     const [playing, setPlaying] = useState(false);
-    const audioUrl = '/ai.wav'; 
+    const audioUrl = '/afterimage.wav'; 
     const audio = useRef(typeof Audio != "undefined"?new Audio(audioUrl):null);
 
     const toggleAudio = () => {

@@ -27,8 +27,8 @@
 }
 
 body {
-  color: rgb(156, 163, 175);
-  background: rgb(245,255,250);
+  color: grey;
+  background: rgb(0,0,0);
 }
 
 body::-webkit-scrollbar {
